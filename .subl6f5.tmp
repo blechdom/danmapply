@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>DANM::Apply</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/normal.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="css/animation.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+  <script>
+    if (/mobile/i.test(navigator.userAgent)) document.documentElement.className += ' w-mobile';
+  </script>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script><![endif]-->
+</head>
+<body>
+  <div class="fix-header" id="home">
+    <div class="w-container">
+      <div class="w-nav" data-collapse="medium" data-animation="default" data-duration="400"></div>
+    </div>
+  </div>
+  <div class="fixed-header">
+    <div class="w-container container">
+      <div class="w-row">
+
+       <!--///////////////////////////////////////////////////////
+       // Logo section 
+       //////////////////////////////////////////////////////////-->
+
+
+        <div class="w-col w-col-3 logo">
+          <a href="#"><img class="logo" src="dimages/logo.gif" alt="DANMApply"></a>
+        </div>
+
+        <!--///////////////////////////////////////////////////////
+       // End Logo section 
+       //////////////////////////////////////////////////////////-->
+
+        <div class="w-col w-col-9">
+
+       <!--///////////////////////////////////////////////////////
+       // Menu section 
+       //////////////////////////////////////////////////////////-->
+
+
+          <div class="w-nav navbar" data-collapse="medium" data-animation="default" data-duration="400" data-contain="1">
+            <div class="w-container nav">
+              <nav class="w-nav-menu nav-menu" role="navigation">
+
+                <a class="w-nav-link menu-li" href="#home">HOME</a>
+                <a class="w-nav-link menu-li" href="#about">ABOUT</a>
+                <a class="w-nav-link menu-li" href="#service">RESEARCH</a>
+                <a class="w-nav-link menu-li" href="#apply">APPLY</a>
+              </nav>
+              <div class="w-nav-button">
+                <div class="w-icon-nav-menu"></div>
+              </div>
+            </div>
+          </div>
+
+
+          <!--///////////////////////////////////////////////////////
+       // End Menu section 
+       //////////////////////////////////////////////////////////-->
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  <!--///////////////////////////////////////////////////////
+       // Who We Are Section
+       //////////////////////////////////////////////////////////-->
+
+
+  <div class="exp title-parlex">
+    <div class="title-back">
+      <div class="w-container">
+        <div id="who-v-animation">
+        <div class="wrap">
+                <div class="title-box" style="padding-top:40px;">
+                <h3 class="title-box-h3">UCSC Digital Art & New Media</h3>
+                <p style="text-align:left;color:white;font-size:24px;line-height:34px;width:60%;">New technologies have profoundly changed contemporary culture and inevitably altered the role of the arts in society. The Digital Arts and New Media MFA Program (DANM) serves as a center for the development and study of digital media and the cultures that they have helped create.</p>
+    	        <img class="about-img" src="dimages/home01.png" alt="DANMlogo">
+    	           <div id="about"></div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<!--///////////////////////////////////////////////////////
+       // End Who We Are section 
+       //////////////////////////////////////////////////////////-->
+
+
+
+  <!--///////////////////////////////////////////////////////
+       //  Slider section 
+       //////////////////////////////////////////////////////////-->
+
+
+  <div class="slidersection" >
+    <div class="sp-slideshow">
+      
+        <input id="button-1" type="radio" name="radio-set" class="sp-selector-1" checked="checked" />
+        <label for="button-1" class="button-label-1"></label>
+        
+        <input id="button-2" type="radio" name="radio-set" class="sp-selector-2" />
+        <label for="button-2" class="button-label-2"></label>
+        
+        <input id="button-3" type="radio" name="radio-set" class="sp-selector-3" />
+        <label for="button-3" class="button-label-3"></label>
+        
+        <input id="button-4" type="radio" name="radio-set" class="sp-selector-4" />
+        <label for="button-4" class="button-label-4"></label>
+        
+        <input id="button-5" type="radio" name="radio-set" class="sp-selector-5" />
+        <label for="button-5" class="button-label-5"></label>
+        
+        <label for="button-1" class="sp-arrow sp-a1"></label>
+        <label for="button-2" class="sp-arrow sp-a2"></label>
+        <label for="button-3" class="sp-arrow sp-a3"></label>
+        <label for="button-4" class="sp-arrow sp-a4"></label>
+        <label for="button-5" class="sp-arrow sp-a5"></label>
+        
+        <div class="sp-content">
+          <div class="sp-parallax-bg"></div>
+          <ul class="sp-slider clearfix">
+            
+            <li>
+            	<div class="wrap">
+          			<div class="about">
+            			<h1 class="about-heading">The Program</h1>
+            				<div class="sepreater"></div>
+          			</div>
+          				<p class="about-des">The DANM MFA Program is a two ­year program. In the first year, students will generally take three courses each term—one course in each of the program areas, New Praxis, Studies, and Collaborative Research. In the second year, students primarily take elective courses, work with their thesis committees, and pursue independent and directed research leading to the completion of the thesis project and paper.</div>
+            </li>
+            
+            <li>
+            	<div class="wrap">
+          			<div class="about">
+            			<h1 class="about-heading">Interdisciplinary Studies</h1>
+            				<div class="sepreater"></div>
+          			</div>
+          				<p class="about-des" style="font-size:24px;">The opportunities for cross-campus research and resources.
+          			</div>
+            </li>
+            
+            <li>
+            	<div class="wrap">
+          			<div class="about">
+            			<h1 class="about-heading">DANM Facilities & Equipment</h1>
+            				<div class="sepreater"></div>
+          			</div>
+          				<p class="about-des">Equipment available for projects, different labs and studio spaces.
+          		</div>
+            </li>
+            
+            <li>
+            	<div class="wrap">
+          			<div class="about">
+            			<h1 class="about-heading">DANM Faculty</h1>
+            				<div class="sepreater"></div>
+          			</div>
+          				<p class="about-des">All about the central affiliated faculty
+          		</div>
+            </li>
+            
+            <li>
+            	<div class="wrap">
+          			<div class="about">
+            			<h1 class="about-heading">UCSC & Santa Cruz</h1>
+            				<div class="sepreater"></div>
+          			</div>
+          				<p class="about-des">Description of UCSC & Greater Santa Cruz Community
+          		</div>
+          	</li>
+          </ul>
+        </div><!-- sp-content -->
+        
+      </div><!-- sp-slideshow -->
+  </div>
+
+
+<!--///////////////////////////////////////////////////////
+       // End slider section 
+       //////////////////////////////////////////////////////////-->
+
+
+
+<!--///////////////////////////////////////////////////////
+       // Call to action section 
+       //////////////////////////////////////////////////////////--> 
+
+
+  <div class="call-to-action">
+    <div class="call-to-back">
+      <div class="w-container">
+        <div class="wrap">
+          <div class="w-row call-row">
+            <div class="w-col w-col-9 cal-col-1">
+              <h3 class="call-to-h3">Jump to Application</h3>
+              <p>Prospective students in the Digital Arts and New Media program will have a foundation in the arts with some demonstrated interest in technology or a foundation in technology with demonstrated background in the arts.</p>
+            </div>
+            <div class="w-col w-col-3"><a class="call-to-butn" href="#apply">Apply Now!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!--///////////////////////////////////////////////////////
+       // End call to action section 
+       //////////////////////////////////////////////////////////-->
+
+
+<!--///////////////////////////////////////////////////////
+       // Service section 
+       //////////////////////////////////////////////////////////-->
+
+
+  <section class="process-parlex" id="service">
+    <section class="parlex2-back">
+      <div class="w-container">
+        <div class="wrap">
+          <div class="service-combo">
+            <div class="services">
+              <h1 class="service-heading">COLLABORATIVE RESEARCH GROUPS</h1>
+              <div class="services-text">Faculty-initiated, three quarter­long projects spanning each student's first and second years</div>
+              <div class="sepreater service"></div>
+            </div>
+            <div class="services-text">This work provides students with the opportunity to learn collaborative and practical research methodologies, and to participate in a professional ­level research project.</div>
+            <div class="w-row">
+              <div class="w-col w-col-3 services-column">
+                <div class="service-icon">
+                  <a href="#mecha"><img src="images/services/Web-Design-Development.png"></a>
+                </div>
+                <h4 class="service-head">MECHATRONICS</h4>
+              </div>
+              <div class="w-col w-col-3">
+                <div class="service-icon">
+                  <a href="#perf"><img src="images/services/Branding-Identity.png"></a>
+                </div>
+                <h4 class="service-head">PERFORMATIVE TECHNOLOGIES</h4>
+              </div>
+              <div class="w-col w-col-3">
+                                <div class="service-icon">
+                  <a href="#partc"><img src="images/services/Motion-Video.png"></a>
+                </div>
+                <h4 class="service-head">PARTICIPATORY CULTURE</h4>
+              </div>
+              <div class="w-col w-col-3">
+                <div class="service-icon">
+                  <a href="#play"><img src="images/services/UX-UI.png"></a>
+                </div>
+                <h4 class="service-head">PLAYABLE MEDIA</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+<!--///////////////////////////////////////////////////////
+       // End Service section 
+       //////////////////////////////////////////////////////////-->
+
+
+
+<!--///////////////////////////////////////////////////////
+       // MECHATRONICS
+       //////////////////////////////////////////////////////////-->
+
+
+  <div class="exp mecha-parlex" id="mecha">
+    <div class="mecha-oback">
+      <div class="w-container">
+        <div class="wrap">
+          <div class="w-row exp-des">
+            <div class="w-col w-col-6 exp-col1">
+              <div class="col1-div">
+                <div class="experinc-box">
+                <h1 class="service-heading" style="text-align:left;">MECHATRONICS</h1>
+                <p>Mechatronics is the functional integration of mechanical, electronic, and information technologies.
+                 	In DANM this framework may be employed for the development and production of physical, systems-based
+                 	artwork that incorporates elements of robotics, motion control, software engineering, and hardware design.
+                 	 DANM Mechatronics research involves the use of a variety of media including video, performance, and sculpture,
+                 	  for the creation of complex, kinetic, audio-visual systems for the exploration of temporality, materiality, experience, perception. 
+				<br><br>Current Project: The Role of Sound in Integrating Art, Science, and the Environment
+                
+                <div class="buttons">
+                <div class="btn-ex-one">
+                  <a class="ex-btn" href="#">Upcoming Project</a>
+                </div>
+              </div>
+              </div>
+              </div>
+            </div>
+            <div class="w-col w-col-6 exp-col2">
+              <div class="col2-div">
+                <img src="dimages/mecha02a.png">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<!--///////////////////////////////////////////////////////
+       // End MECHATRONICS
+       //////////////////////////////////////////////////////////-->
+
+
+<!--///////////////////////////////////////////////////////
+       // PERFORMATIVE
+       //////////////////////////////////////////////////////////-->
+
+
+  <div class="exp perf-parlex" id="perf">
+    <div class="mecha-back">
+      <div class="w-container">
+        <div class="wrap">
+          <div class="w-row exp-des">
+            <div class="w-col w-col-6 exp-col1">
+              <div class="col1-div">
+              <img src="dimages/perf02a.png">
+                
+            </div>
+            </div>
+              <div class="w-col w-col-6 exp-col2">
+              <div class="col2-div">
+                <div class="experinc-box">
+                <h1 class="service-heading" style="text-align:left;">PERFORMATIVE TECHNOLOGIES</h1>
+                <p>New methods for combining media and technology to create the visual, aural and connective material of performance.
+				<br><br>Current Project: The Odyssey
+                
+                <div class="buttons">
+                <div class="btn-ex-one">
+                  <a class="ex-btn" href="http://danm.ucsc.edu/research/performative-technologies">Read More</a>
+                </div>
+              </div>
+              </div>
+          
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<!--///////////////////////////////////////////////////////
+       // End PERFORMATIVE
+       //////////////////////////////////////////////////////////-->
+
+
+
+<!--///////////////////////////////////////////////////////
+       // PARTC
+       //////////////////////////////////////////////////////////-->
+
+
+  <div class="exp partc-parlex" id="partc">
+    <div class="mecha-oback">
+      <div class="w-container">
+        <div class="wrap">
+          <div class="w-row exp-des">
+            <div class="w-col w-col-6 exp-col1">
+              <div class="col1-div">
+                <div class="experinc-box">
+                <h1 class="service-heading" style="text-align:left;">PARTICIPATORY CULTURE</h1>
+                <p>The role of information and communication technologies in the current shift from “top- down” culture to a culture of participation and social engagement.
+				<br><br>2016 Project: The Public Record: Expanded Documentary, Activism as Affectivism
+                
+                <div class="buttons">
+                <div class="btn-ex-one">
+                  <a class="ex-btn" href="#">Read More</a>
+                </div>
+              </div>
+              </div>
+              </div>
+            </div>
+            <div class="w-col w-col-6 exp-col2">
+              <div class="col2-div">
+                <img src="dimages/partc02a.png">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<!--///////////////////////////////////////////////////////
+       // End PARTC
+       //////////////////////////////////////////////////////////-->
+
+
+<!--///////////////////////////////////////////////////////
+       // PLAYABLE
+       //////////////////////////////////////////////////////////-->
+
+
+  <div class="exp play-parlex" id="play">
+    <div class="mecha-back">
+      <div class="w-container">
+        <div class="wrap">
+          <div class="w-row exp-des">
+            <div class="w-col w-col-6 exp-col1">
+              <div class="col1-div">
+              <img src="dimages/play02a.png">
+                
+            </div>
+            </div>
+            <div class="w-col w-col-6 exp-col2">
+              <div class="col2-div">
+                <div class="experinc-box">
+                <h1 class="service-heading" style="text-align:left;">PLAYABLE MEDIA</h1>
+                <p>The potential of computational systems for the creation of new media forms that invite and structure play.
+                <br><br>2016 Project: Experimental Play
+                
+                <div class="buttons">
+                <div class="btn-ex-one">
+                  <a class="ex-btn" href="#">Read More</a>
+                </div>
+              </div>
+              </div>
+          
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<!--///////////////////////////////////////////////////////
+       // End PLAYABLE
+       //////////////////////////////////////////////////////////-->
+
+
+<!--///////////////////////////////////////////////////////
+       // APPLY section 
+       //////////////////////////////////////////////////////////-->
+
+
+  <section class="process-parlex" id="apply">
+    <section class="parlex2-backb">
+      <div class="w-container">
+        <div class="wrap">
+          <div class="service-combo">
+            <div class="services">
+              <h1 class="service-heading">APPLY TO DANM</h1>
+              <div class="services-text">Prospective students in the Digital Arts and New Media program will have a foundation in the arts with some demonstrated interest in technology or a foundation in technology with demonstrated background in the arts.  <a href="http://danm.ucsc.edu/admissions/admissions-requirements">ADMISSION REQUIREMENTS</a></div>
+              <div class="sepreater service"></div>
+            </div>
+            <div class="services-text">Each prospective student will need to submit a statement of purpose (500-1000 words), a personal history (500 words), an online portfolio and 3 letters of recommendation. <a href="http://danm.ucsc.edu/admissions/application-guidelines">APPLICATION GUIDELINES</a>
+            
+            <div class="buttons" style="align:center;">
+                
+                  <a class="ex-btn" href="http://graddiv.ucsc.edu/prospective-students/">APPLY NOW</a>
+              </div></div>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+<!--///////////////////////////////////////////////////////
+       // End APPLY section 
+       //////////////////////////////////////////////////////////-->
+
+<!--///////////////////////////////////////////////////////
+       // Footer section 
+       //////////////////////////////////////////////////////////-->  
+
+  <div class="footer-parlex">
+    <div class="parlex9-back">
+      <div class="w-container">
+        <div class="wrap">
+          <img class="footer-logo" src="dimages/logo.png" alt="DANM">
+          <div class="footer-social">
+            <div class="fotter-social-wrap">
+              <a href="https://www.facebook.com/"><img class="fotter-social" src="images/social/Facebook.png" alt="52dd249c929b601f5400054c_Facebook.png"></a>
+              <a href="https://www.twitter.com/"><img class="fotter-social" src="images/social/Twitter.png" alt="52dd24f2929b601f54000551_Twitter.png"></a>
+              <a href="https://www.flicker.com/"><img class="fotter-social" src="images/social/Flickr.png" alt="52de535f1b42bfc24300049e_Flickr.png"></a>
+              <a href="https://www.vimeo.com/"><img class="fotter-social" src="images/social/Vimeo.png" alt="52de537cb6d2171f7800041c_Vimeo.png"></a>
+            </div>
+          </div>
+          <div>
+            <div class="fotter-text"><p class="fotter-quote">DANM Apply</p>
+              <p class="copyright-area">©2015 DANM. ALL RIGHTS RESERVED</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+       <!--///////////////////////////////////////////////////////
+       // End Footer section 
+       //////////////////////////////////////////////////////////-->
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/normal.js"></script>
+  <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+  <script type="text/javascript" src="js/carousels.js"></script>
+  <script type="text/javascript" src="js/slider-modernizr.js"></script>
+  <script src="js/classie.js"></script>
+  <script src="js/portfolio-effects.js"></script>
+  <script src="js/toucheffects.js"></script>
+  <script src="js/modernizr.js"></script>
+  <script src="js/animation.js"></script>
+
+</body>
+</html>
